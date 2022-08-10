@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 0;
+}
+.logo{
+    padding: 40px;
+    padding-left: 50px;
+    width: 300px;
+    cursor: pointer;
+}
+nav ul{ 
+    flex: 1;
+    text-align: right;
+    padding-right: 10px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 50px;
+    margin: 10px 15px;
+    font-size: 20px;
+}
+nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translatex(-50%);
+    background-color: rgb(0, 133, 250);
+    transition: width 0.3s;
+}
+nav ul li a:hover::after{
+    width: 70%;
+}
+.imgnen h1{
+    color: rgb(255, 255, 255);
+    padding-top: 70px ;
+    text-align: center;
+    background-image: linear-gradient(rgba(250, 245, 245, 0.3),transparent),url(../img/0d5545aa593484e272ead90ba14aab9095304092.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    position: relative;
+}
+.motaogoicuoc {
+    text-align: left;
+    font-family: 'UTM Avo';
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+}
+.goimang ul {
+    display: flex;
+    margin : 50px;  
+    padding-left: 60px;
+}
+.goimang li {
+    margin : 50px;
+    box-sizing: border-box;
+    background-color:rgb(202, 202, 202);
+    border-radius: 10px 10px 00 0;
+    width: 1000px;
+    text-align: center;
+    font-size: 25px;
+}
+.goimang li h3{
+    background-image: linear-gradient(to right,#e05705, #f98640, #e05705);
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 10px 10px 00 0;
+    font-family: 'UTM Akashi';
+    color: #fff;
+}
+.goimang li {
+        padding: auto;
+        width: 23%;
+        float: left;
+        list-style: none !important;
+        margin-left: 0px !important;
+        border: 1px solid #e6e6e6;
+        border-radius: 10px;
+        padding-left: 0px;
+        background: #efefef;
+        box-shadow: 0px 6px 4px rgb(0 0 0 / 25%);
+    }
+.giamang{
+    color: #ff6600;
+}
+.thongtingoicuoc p{
+    padding: 20px;
+}
+.motaogoicuoc {
+    padding: 20px;
+    text-align: left;
+    font-family: 'UTM Avo';
+    font-size: 25px;
+    font-weight: normal;
+    color: #333;
+}
+.motaogoicuoc p{
+    padding: 10px;
+}
+.gichu1 p{
+    font-size: 20px;
+    text-align: center;
+    padding: 2px;
+    margin-top: 0px;
+}
+.gichu{
+    padding-top: 30px;
+}
+.title {
+    text-align: center;
+    padding-top: 60px;
+}
+.title::after{
+    content: '';
+    display: block;
+    background: #e05705;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:auto;
+    width: 300px;
+    transform: translateX(-5%);    
+}
+.gichu h2 {
+    padding-left: 10px;
+    margin-left: 70px;
+}
+.title1::after{
+    content: '';
+    display: block;
+    background: #e05705;
+    height: 3px;
+    margin-right: auto;
+    width: 400px;
+    transform: translateX(-0%); 
+}
+.gichu ul{
+    margin-left: 70px;
+}
+.gichu li {
+    list-style: none !important;
+    background: url(../img/icon-li.png) no-repeat left 7px;
+    padding-lefT: 25px;
+    margin-lefT: 15px !important;
+    padding-top:4.5px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.styledacbiet{
+    color:red
+}
+.gichu p{
+    padding-left: 30px;  
+    text-align: left;
+    font-size: 20px;
+}
+.truyenhinh h2{
+    padding-left: 10px;
+    margin-left: 70px;
+}
+.truyenhinh p{
+    margin-top: 20px;
+    margin-left: 80px;
+}
